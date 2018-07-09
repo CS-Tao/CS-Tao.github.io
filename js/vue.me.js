@@ -3,7 +3,7 @@ new Vue({
   data: {
     author: "cs-tao",
     authorLink: "https://github.com/CS-Tao",
-    musicText: " 三个人的时光",
+    musicText: "Music",
     musicUrl:
       "https://raw.githubusercontent.com/CS-Tao/github-content/master/contents/blog/music/homepage.mp3",
     copyright: "© 2018",
