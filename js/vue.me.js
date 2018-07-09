@@ -77,18 +77,6 @@ new Vue({
         link: "https://cloud.cs-tao.cc/",
         name: "cloud",
         iconClass: "fa fa-jsfiddle"
-      },
-      {
-        type: "docker-store",
-        link: "https://store.docker.com/profiles/cstao/",
-        name: "docker-store",
-        iconClass: "fa fa-ship"
-      },
-      {
-        type: "docker-cloud",
-        link: "https://cloud.docker.com/swarm/cstao/repository/list/",
-        name: "docker-cloud",
-        iconClass: "fa fa-anchor"
       }
     ]
   },
