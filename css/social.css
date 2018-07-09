@@ -1,0 +1,87 @@
+.social a.lock {
+    background: #00ff00;
+    border: 1px solid #00ff00;
+}
+.lock a.lock:hover {
+    border: 1px solid #909ab6;
+}
+
+.social a.unlock {
+    background: #00ff00;
+    border: 1px solid #00ff00;
+}
+.unlock a.unlock:hover {
+    border: 1px solid #909ab6;
+}
+
+.social a.gogs {
+    background: #e65d1d;
+    border: 1px solid #e65d1d;
+}
+.gogs a.gogs:hover {
+    border: 1px solid #909ab6;
+}
+
+.social a.cloud {
+    background: rgb(87,250,255);
+    border: 1px solid rgb(87,250,255);
+}
+.cloud a.cloud:hover {
+    border: 1px solid #909ab6;
+}
+
+.social a.docker-web {
+    background: #2c97df;
+    border: 1px solid #2c97df;
+}
+.docker-web a.docker-web:hover {
+    border: 1px solid #909ab6;
+}
+
+.social a.portainer-io {
+    background: #2c97df;
+    border: 1px solid #2c97df;
+}
+.portainer-io a.portainer-io:hover {
+    border: 1px solid #909ab6;
+}
+
+.social a.docker-store {
+    background: rgb(89,195,226);
+    border: 1px solid rgb(89,195,226);
+}
+.docker-store a.docker-store:hover {
+    border: 1px solid #909ab6;
+}
+
+.social a.docker-cloud {
+    background: rgb(89,195,226);
+    border: 1px solid rgb(89,195,226);
+}
+.docker-cloud a.docker-cloud:hover {
+    border: 1px solid #909ab6;
+}
+
+.social a.gallery {
+    background: #eeb6d7;
+    border: 1px solid #eeb6d7;
+}
+.gallery a.gallery:hover {
+    border: 1px solid #909ab6;
+}
+
+.social a.projects {
+    background: #272727;
+    border: 1px solid #272727;
+}
+.projects a.projects:hover {
+    border: 1px solid #909ab6;
+}
+
+.social a.lover {
+    background: rgb(253,78,113);
+    border: 1px solid rgb(253,78,113);
+}
+.lover a.lover:hover {
+    border: 1px solid #909ab6;
+}
