@@ -3,12 +3,12 @@ new Vue({
   data: {
     author: "cs-tao",
     authorLink: "https://github.com/CS-Tao",
-    musicText: "Music",
+    musicText: "music",
     musicUrl:
       "https://raw.githubusercontent.com/CS-Tao/github-content/master/contents/blog/music/homepage.mp3",
     copyright: "© 2018",
     signature:
-      "也许，某天，当我们转过头，发现一切已在手里。<br>也许，某天，当我们偶一回眸，看到那人还在灯火阑珊中。",
+      "欲买桂花同载酒，终不似，少年游",
     blogUrl: "/blog/",
     avatarUrl:
       "https://raw.githubusercontent.com/CS-Tao/blog/gh-pages/img/avatar.png",
