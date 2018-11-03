@@ -769,3 +769,16 @@ min-height:100%;
   content: "\e6c7";
 }
 /***********************************/
+#app {
+	width: 100vw;
+	height: 90vh;
+	display: flex;
+}
+
+#wrapper {
+	margin: auto;
+}
+
+#main {
+	margin: auto;
+}
