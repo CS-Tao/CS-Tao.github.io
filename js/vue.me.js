@@ -16,7 +16,6 @@ new Vue({
     leaveTitle: "点我点我",
     returnTitle: "就很开心",
     baiduTongjiToken: "60c849aef33194f2884736dfb3f0b518",
-    googleAnalyticsToken: "UA-104910484-1",
     auth: "7f1a65908b05238c21c134c764c89e28",
     authed: false,
     musicPlay: false,
@@ -104,7 +103,6 @@ new Vue({
     this.checkMusicPlay();
     this.checkAuth();
     this.baiduTongji(this.baiduTongjiToken);
-    this.googleAnalytics(this.googleAnalyticsToken);
     var OriginTitile = document.title,
       titleTime;
     var app = this;
@@ -137,29 +135,6 @@ new Vue({
         var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(hm, s);
       })();
-    },
-    googleAnalytics(token) {
-      (function(i, s, o, g, r, a, m) {
-        i["GoogleAnalyticsObject"] = r;
-        (i[r] =
-          i[r] ||
-          function() {
-            (i[r].q = i[r].q || []).push(arguments);
-          }),
-          (i[r].l = 1 * new Date());
-        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m);
-      })(
-        window,
-        document,
-        "script",
-        "//www.google-analytics.com/analytics.js",
-        "ga"
-      );
-      ga("create", token, "auto");
-      ga("send", "pageview");
     },
     lockClicked () {
       this.checkAuth()

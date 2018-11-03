@@ -2,9 +2,9 @@
 
 > 利用 Vue.js 构建的个人主页，链接：https://home.cs-tao.cc/
 
-### 截图
+### 预览
 
-![截图](https://raw.githubusercontent.com/CS-Tao/github-content/master/contents/github/CS-Tao.github.io/1.png)
+![预览](https://raw.githubusercontent.com/CS-Tao/github-content/master/contents/github/CS-Tao.github.io/1.png)
 
 ### LICENSE
 
