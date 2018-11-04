@@ -100,7 +100,7 @@ new Vue({
     ]
   },
   mounted() {
-    this.checkMusicPlay();
+    // this.checkMusicPlay();
     this.checkAuth();
     this.baiduTongji(this.baiduTongjiToken);
     var OriginTitile = document.title,
