@@ -34,6 +34,12 @@ new Vue({
         iconClass: "icon-github"
       },
       {
+        type: "gallery",
+        link: "https://gallery.cs-tao.cc/",
+        name: "gallery",
+        iconClass: "fa fa-picture-o"
+      },
+      {
         type: "rss",
         link: "/blog/atom.xml",
         name: "RSS",
@@ -64,12 +70,6 @@ new Vue({
         link: "https://portainer-io.cs-tao.cc/",
         name: "portainer-io",
         iconClass: "fa fa-codepen"
-      },
-      {
-        type: "gallery",
-        link: "https://gallery.cs-tao.cc/",
-        name: "gallery",
-        iconClass: "fa fa-picture-o"
       },
       {
         type: "cloud",
