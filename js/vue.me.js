@@ -6,7 +6,7 @@ new Vue({
     musicText: "music",
     musicUrl:
       "https://raw.githubusercontent.com/CS-Tao/github-content/master/contents/blog/music/homepage.mp3",
-    copyright: "© 2018",
+    copyright: "© 2019",
     signature:
       "欲买桂花同载酒，终不似，少年游",
     blogUrl: "/blog/",
