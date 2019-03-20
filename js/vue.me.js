@@ -5,13 +5,13 @@ new Vue({
     authorLink: "https://github.com/CS-Tao",
     musicText: "music",
     musicUrl:
-      "https://raw.githubusercontent.com/CS-Tao/github-content/master/contents/blog/music/homepage.mp3",
+      "/assets/homepage.mp3",
     copyright: "© 2019",
     signature:
       "欲买桂花同载酒，终不似，少年游",
     blogUrl: "/blog/",
     avatarUrl:
-      "https://raw.githubusercontent.com/CS-Tao/blog/gh-pages/img/avatar.png",
+      "/assets/avatar.png",
     blogText: "CS-Tao",
     leaveTitle: "点我点我",
     returnTitle: "就很开心",
