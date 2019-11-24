@@ -22,7 +22,7 @@ var vm = new Vue({
       {
         type: "mail",
         link:
-          "http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;amp;email=whucstao@qq.com",
+          "mailto:whucstao@qq.com",
         name: "MAIL",
         iconClass: "icon-mail"
       },
