@@ -1,4 +1,4 @@
-new Vue({
+var vm = new Vue({
   el: "#app",
   data: {
     author: "cs-tao",
@@ -10,8 +10,7 @@ new Vue({
     signature:
       "欲买桂花同载酒，终不似，少年游",
     blogUrl: "/blog/",
-    avatarUrl:
-      "/assets/avatar.png",
+    avatarUrl: null,
     blogText: "CS-Tao",
     leaveTitle: "点我点我",
     returnTitle: "就很开心",
@@ -168,6 +167,12 @@ new Vue({
         if (audio !== null && !audio.paused)
           audio.pause()
       }
+    },
+    initSceneCb () {
+      var app = this
+      this.$nextTick(function () {
+        app.avatarUrl = '/assets/avatar.png'
+      })
     }
   }
 });

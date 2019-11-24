@@ -782,3 +782,12 @@ min-height:100%;
 #main {
 	margin: auto;
 }
+
+.img-alt {
+	display: block;
+	margin: 0 auto;
+	width: 118px;
+	height: 118px;
+	border-radius: 100%;
+	border: 2px solid #fff;
+}

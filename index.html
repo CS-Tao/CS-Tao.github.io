@@ -20,7 +20,8 @@
         <header>
           <span class="avatar">
             <a :href="blogUrl">
-              <img :src="avatarUrl" width="118px">
+              <img v-if="avatarUrl" :src="avatarUrl" width="118px" height="118px">
+              <div v-else class="img-alt"></div>
             </a>
           </span>
           <a :href="blogUrl">
@@ -60,6 +61,9 @@
     </div>
   </div>
 </body>
+<script src="./js/vue.min.js"></script>
+<script src="./js/vue-head.js"></script>
+<script src="./js/vue.me.js"></script>
 <script>
   if ('addEventListener' in window) {
     window.addEventListener('load', function () {
@@ -1059,6 +1063,7 @@ void main(void) {
     camera.position.z = pointFlower.area.z + projection.nearfar[0];
     projection.angle = Math.atan2(pointFlower.area.y, camera.position.z + pointFlower.area.z) * 180.0 / Math.PI * 2.0;
     Matrix44.loadProjection(projection.matrix, renderSpec.aspect, projection.angle, projection.nearfar[0], projection.nearfar[1]);
+    vm.initSceneCb()
   }
   function renderScene() {
     //draw
@@ -1160,7 +1165,4 @@ void main(void) {
     };
   })(window, 'equestAnimationFrame');
 </script>
-<script src="./js/vue.min.js"></script>
-<script src="./js/vue-head.js"></script>
-<script src="./js/vue.me.js"></script>
 </html>
