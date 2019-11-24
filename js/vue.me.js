@@ -169,10 +169,11 @@ var vm = new Vue({
       }
     },
     initSceneCb () {
-      var app = this
-      this.$nextTick(function () {
-        app.avatarUrl = '/assets/avatar.png'
-      })
+      if (!this.avatarUrl) {
+        this.$nextTick(() => {
+          this.avatarUrl = '/assets/avatar.png'
+        })
+      }
     }
   }
 });
