@@ -6,7 +6,7 @@ var vm = new Vue({
     musicText: "music",
     musicUrl:
       "/assets/homepage.mp3",
-    copyright: "© 2019",
+    copyright: "© since 2018",
     signature:
       "欲买桂花同载酒，终不似，少年游",
     blogUrl: "/blog/",
