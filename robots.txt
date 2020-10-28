@@ -12,6 +12,6 @@ Disallow: /blog/fancybox/
 Disallow: /blog/gallery/
 Disallow: /blog/categories/
 
-Sitemap: http://cs-tao.github.io/blog/sitemap.xml
-Sitemap: http://cs-tao.github.io/blog/baidusitemap.xml
-Sitemap: http://cs-tao.github.io/blog/atom.xml
+Sitemap: https://home.cs-tao.cc/blog/sitemap.xml
+Sitemap: https://home.cs-tao.cc/blog/baidusitemap.xml
+Sitemap: https://home.cs-tao.cc/blog/atom.xml
