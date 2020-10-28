@@ -22,7 +22,7 @@ var vm = new Vue({
       {
         type: "mail",
         link:
-          "mailto:whucstao@qq.com",
+          "mailto:whucstao@gmail.com",
         name: "MAIL",
         iconClass: "icon-mail"
       },
@@ -171,7 +171,7 @@ var vm = new Vue({
     initSceneCb () {
       if (!this.avatarUrl) {
         this.$nextTick(() => {
-          this.avatarUrl = '/assets/avatar.png'
+          this.avatarUrl = '/assets/avatar.min.png'
         })
       }
     }
